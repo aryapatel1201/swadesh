@@ -1,0 +1,106 @@
+.our-production{
+    background-image: url(../../src/img/B2B-product-section-bgi.png);
+    .workflow-container {
+        margin: 50px 0;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    
+    .workflow-step {
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        border: 2px solid #d3a03e;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        
+        .step-index {
+            font-size: 18px;
+            color: #d3a03e;
+        }
+        
+     
+        
+        &:first-child::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            width: 286px; 
+            height: 2px;
+            background: #d3a03e;
+            z-index: 1;
+           
+        }
+    
+        &:last-child::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: 100%;
+            width: 286px; 
+            height: 2px;
+            background: #d3a03e;
+            z-index: 1;
+        
+        }
+    }
+    .workflow-step-2{
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        border: 2px solid #d3a03e;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .step-index {
+            font-size: 18px;
+            color: #d3a03e;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            width: 286px; 
+            height: 2px;
+            background: #d3a03e;
+            z-index: 1;
+        }
+        
+    }
+    .workflow-step-3{
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        border: 2px solid #d3a03e;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .step-index {
+            font-size: 18px;
+            color: #d3a03e;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            width: 286px; 
+            height: 2px;
+            background: #d3a03e;
+            z-index: 1;
+        }
+        
+    }
+
+}

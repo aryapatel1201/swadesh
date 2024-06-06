@@ -1,3 +1,6 @@
+.bg-1{
+    background-color: $bg-1;
+}
 .fs-14 {
     font-size: 0.875rem;
   }
@@ -26,7 +29,7 @@
     font-size: clamp(1.375rem, -0.0313rem + 4.5vw, 2.5rem);
 }
 .fs-55{
-    font-size: 3.125rem; // 50px
+    font-size: 3.438rem; // 55px
 }
 .text-1{
     color: $text-1;
@@ -51,4 +54,7 @@
 }
 .p-20{
     padding: 20px 46px;
+}
+.p-56{
+    padding:56px 32px;
 }
