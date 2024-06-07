@@ -1,0 +1,23 @@
+.Consumer-Products{
+    .b2b-container{
+        .b2b-row{
+            padding-top: 40px;
+            .b2b-product-card{
+                .card{  
+                    border-radius: 16px;
+                    position: relative;
+                    padding: 19px;
+                   img{
+                        width: 148px;
+                        height: 148px;
+                    }
+                    svg{
+                        position: absolute;
+                        top: 23px;
+                        left: 134px;
+                    }
+                }
+            }
+        }
+       }
+}
