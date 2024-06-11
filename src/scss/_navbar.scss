@@ -9,10 +9,11 @@
             color: $primary;
           }
 
-          &.active {
-            color: #bd8318;
-          }
+          
         }
+        .active {
+          color: $primary;
+      }
 
       }
       .nav-contact{

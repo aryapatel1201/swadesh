@@ -5,16 +5,17 @@
         .about-us-up-right-arrow {
           position: absolute;
           top: 10px;
-          left: 520px;
+          left: 500px;
           @media (min-width:777px) and (max-width:1024px) {
-            top: 98px;
-            left: 400px;
+            position: absolute;
+            top: 5px;
+            left: 410px;
           }
           @media screen and (max-width: 992px) {
-            left: 530px;
+            left:450px;
           }
           @media screen and (max-width:576px){
-            left: 335px;
+            left: 320px;
             top: 0px;
           }
         }

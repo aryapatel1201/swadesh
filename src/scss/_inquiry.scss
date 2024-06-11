@@ -6,6 +6,9 @@
             display: flex;
             flex-direction: column;
             gap: 40px;
+            @media screen and (max-width:576px){
+              padding: 40px 20px;
+          }
             .inquiry-location{
               p{
                 width: 363px;
