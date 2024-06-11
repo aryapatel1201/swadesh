@@ -6,8 +6,14 @@
         display: flex;
         justify-content: space-between;
         position: relative;
+        @media (min-width: 1024px) and (max-width: 1280px) {
+  
+            width: 840px;
+            margin: 50px auto;
+            
+          }
 
-        @media (min-width: 768px) and (max-width: 1024px) {
+        @media (min-width: 768px) and (max-width: 1023px) {
             width: 500px;
             margin: 50px auto;
         }
@@ -22,7 +28,7 @@
         width: 40px;
         height: 40px;
         background: #fff;
-        border: 2px solid #d3a03e;
+        border: 2px solid $primary;
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -45,16 +51,17 @@
             left: 100%;
             width: 286px;
             height: 2px;
-            background: #d3a03e;
+            background: $primary;
             z-index: 1;
 
-            @media (min-width: 768px) and (max-width: 1024px) {
-                width: 196px;
-            }
-
-            @media (min-width: 768px) and (max-width: 1024px) {
+            @media (min-width: 768px) and (max-width: 1023px) {
                 width: 87px;
             }
+            @media (min-width: 1024px) and (max-width: 1280px) {
+                width: 172px;  
+              }
+
+        
         }
 
         &:last-child::after {
@@ -64,16 +71,17 @@
             right: 100%;
             width: 286px;
             height: 2px;
-            background: #d3a03e;
+            background: $primary;
             z-index: 1;
-
-            @media (min-width: 768px) and (max-width: 1024px) {
-                width: 196px;
-            }
 
             @media (min-width: 768px) and (max-width: 1024px) {
                 width: 87px;
             }
+            @media (min-width: 1024px) and (max-width: 1280px) {
+                width: 172px;  
+              }
+
+            
 
         }
     }
@@ -81,8 +89,8 @@
     .workflow-step-2 {
         width: 40px;
         height: 40px;
-        background: #fff;
-        border: 2px solid #d3a03e;
+        background: $white;
+        border: 2px solid $primary;
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -91,7 +99,7 @@
 
         .step-index {
             font-size: 18px;
-            color: #d3a03e;
+            color: $primary;
         }
 
         &::after {
@@ -101,16 +109,18 @@
             left: 100%;
             width: 286px;
             height: 2px;
-            background: #d3a03e;
+            background: $primary;
             z-index: 1;
-
-            @media (min-width: 768px) and (max-width: 1024px) {
-                width: 196px;
-            }
 
             @media (min-width: 768px) and (max-width: 1024px) {
                 width: 87px;
             }
+            @media (min-width: 1024px) and (max-width: 1280px) {
+                width: 172px;  
+              }
+
+
+           
         }
 
     }
@@ -119,7 +129,7 @@
         width: 40px;
         height: 40px;
         background: #fff;
-        border: 2px solid #d3a03e;
+        border: 2px solid $primary;
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -128,7 +138,7 @@
 
         .step-index {
             font-size: 18px;
-            color: #d3a03e;
+            color: $primary;
         }
 
         &::after {
@@ -138,16 +148,18 @@
             left: 100%;
             width: 286px;
             height: 2px;
-            background: #d3a03e;
+            background: $primary;
             z-index: 1;
-
-            @media (min-width: 768px) and (max-width: 1024px) {
-                width: 196px;
-            }
 
             @media (min-width: 768px) and (max-width: 1024px) {
                 width: 87px;
             }
+            @media (min-width: 1024px) and (max-width: 1280px) {
+                width: 172px;  
+              }
+
+
+           
         }
 
     }
