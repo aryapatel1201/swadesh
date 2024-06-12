@@ -317,7 +317,8 @@
   .about-us .about-us-right {
     text-align: center;
   }
-  .about-us .border-top, .about-us .border-bottom {
+  .about-us .border-top,
+  .about-us .border-bottom {
     flex-direction: row;
     gap: 1rem;
     border: none;
