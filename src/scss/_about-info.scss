@@ -1,0 +1,22 @@
+.about-info{
+    .company-size {
+      background-color: $primary;
+      padding: 50px;
+      margin-top: 80px;
+        .row {
+          .Project-size {
+            font-weight: 800;
+            font-size: 50px;
+            text-transform: capitalize;
+              
+          }
+           
+          .vertical-line {
+            border-right: 1px solid white;
+            @media (max-width: 768px) {
+              border-right: 0px;
+            }
+          }
+        }
+    }
+}

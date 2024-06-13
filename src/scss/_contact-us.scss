@@ -1,0 +1,42 @@
+.address-section{
+    .container{
+        .inquiry-item{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .inquiry-location{
+              p{
+                width: 363px;
+                @media (min-width:576px) and (max-width:992px) {
+                  width: 250px;
+              }
+              }
+            }
+            .inquiry-msg{
+              p{
+                width: 363px;
+                @media (min-width:576px) and (max-width:992px) {
+                  width: 150px;
+                  font-size: 18px;
+              }
+            }
+          }
+         }
+        .inquiry-form{
+          .input {
+            border: 1px solid #d9d9d9;
+            &:hover,
+            &:focus {
+              border: 1px solid $primary;
+          
+              &::placeholder {
+                color: $primary;
+              }
+            }
+          }
+          textarea.input {
+            resize: none;
+          }
+        }
+    }
+}

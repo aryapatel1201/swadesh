@@ -1,0 +1,19 @@
+.research-product{
+    .product-card{
+        @media screen and (max-width: 992px) {
+            display: flex;
+            justify-content: center;
+          }
+        .card{
+            background-image: url(../../src/img/research-card-bg.png);
+            background-size: cover;
+            position: relative;
+            width: 415px;
+            .top-right{
+                position: absolute;
+                top: 7px;
+                left: 376px;
+            }
+        }
+    }
+}

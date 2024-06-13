@@ -1,0 +1,27 @@
+.b2b-product{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url(../../src/img/B2B-product-section-bgi.png);
+   background-color: $bg-2;
+   margin-top: 30px;
+   .b2b-container{
+    .b2b-row{
+        padding-top: 40px;
+            .card{  
+                border-radius: 16px;
+                position: relative;
+                padding: 19px;
+               img{
+                    width: 148px;
+                    height: 148px;
+                }
+                svg{
+                    position: absolute;
+                    top: 23px;
+                    left: 134px;
+                }
+            }
+        
+    }
+   }
+}

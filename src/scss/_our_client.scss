@@ -1,0 +1,11 @@
+.our-client{
+    .client-logo-container{
+        border: 1px solid $border-color;
+        width: 210px;
+        height: 150px;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

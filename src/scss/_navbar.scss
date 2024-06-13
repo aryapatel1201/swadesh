@@ -1,0 +1,30 @@
+.navbar {
+  .offcanvas {
+    .offcanvas-body {
+      .navbar-nav {
+        .nav-link {
+          color: $black;
+
+          &:hover {
+            color: $primary;
+          }
+
+          
+        }
+        .active {
+          color: $primary;
+      }
+
+      }
+      .nav-contact{
+        .vertical-line {
+          border-right: 1px solid #9d9d9d;
+          @media screen and (max-width: 992px) {
+            border: none;
+          }
+  
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.testimonials {
+    margin-top: 80px;
+    background-image: url(../../src/img/testinomials-bg.png);
+    background-color: $bg-2;
+
+    .card {
+        height: auto;
+
+        .card-img {
+            width: 255px;
+            height: 180px;
+
+            @media (min-width:992px) and (max-width:1024px) {
+                width: 155px;
+                height: 270px;
+            }
+        }
+    }
+}
